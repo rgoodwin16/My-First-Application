@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult Help()
+        {
+            ViewBag.Message = "Are you lost?  Then I'm sorry I can't really help you. I know, I'm kind of a dick since this really doesn't 'HELP' in any way.";
+
+            return View();
+        }
     }
 }
